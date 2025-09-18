@@ -26,13 +26,14 @@ C++
 
 Pada C++ Seluruh data produk disimpan dalam sebuah vector<Toko>, sehingga jumlah produk dapat bertambah atau berkurang secara dinamis. User pertama-tama memilih menu yang tersedia, seperti menambah, menampilkan, mencari, mengupdate, atau menghapus produk. Ketika user menambah produk, program akan membuat objek Toko baru dengan data yang diinput lalu menyimpannya ke dalam vector. Saat menampilkan produk, program melakukan iterasi pada vector dan memanggil metode tampilkan() untuk setiap produk. Proses pencarian dilakukan dengan membandingkan ID produk dalam vector. Untuk update, program mencari produk berdasarkan ID lalu mengubah nilainya menggunakan setter. Sedangkan proses hapus dilakukan dengan menghapus elemen vector yang sesuai dengan ID yang dimaksud.
 
-Dokumentasi:https://www.youtube.com/watch?v=chBCVZkNQLg&list=PLGYb8K7YVgHwkT4JV6rfTO0wMs-uK5Xng
+[![Dokumentasi Video](https://raw.githubusercontent.com/WhosG/TP1DPBO2425C2/main)](https://www.youtube.com/watch?v=chBCVZkNQLg&list=PLGYb8K7YVgHwkT4JV6rfTO0wMs-uK5XngN)
 
 Java
 
 Pada Java, alur program mirip dengan C++ tetapi menggunakan ArrayList<Toko> sebagai wadah penyimpanan. Interaksi dilakukan melalui console dengan bantuan kelas Scanner untuk input user. Setiap kali user memilih menu tambah, objek baru dibuat dan dimasukkan ke dalam ArrayList. Saat menampilkan, seluruh isi list diiterasi dengan for-each lalu dipanggil metode tampilkan. Pencarian dilakukan dengan loop sederhana pada list menggunakan ID. Update berjalan dengan cara mencari produk terlebih dahulu, lalu memanggil setter untuk memperbarui data. Sedangkan hapus dilakukan dengan memanfaatkan method remove() pada list untuk menghapus objek yang sesuai.
 
-Dokumentasi:https://www.youtube.com/watch?v=DUuaJ7EDVtY&list=PLGYb8K7YVgHzw2PBM6KgpxHrI3mpvLd5N
+[![Dokumentasi Video](https://raw.githubusercontent.com/WhosG/TP1DPBO2425C2/main)](https://www.youtube.com/watch?v=DUuaJ7EDVtY&list=PLGYb8K7YVgHzw2PBM6KgpxHrI3mpvLd5N)
+
 
 Python
 
